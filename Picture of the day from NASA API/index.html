@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy picture of the day</title>
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="logo.png">
+        <h1>Astronomy Picture of the Day</h1>
+    </header>
+
+    <main id ="mainPart">
+        <!-- Loader -->
+        <section class="loader" id="appLoader"></section>
+        <!-- Search -->
+        <section class="search-picture" id="searchPicture">
+            <a class="select-date">Select date:</a>
+            <input class="date" type="date" id="inputDate" placeholder="mm/dd/yyyy">
+            <button class="see-picture" id="seePicture">See picture</button>
+        </section>
+        <!-- Display result -->
+        <section id= "displayResult"></section>
+            <div class="display-picture" id="displayPicture"></div>
+            <div class="display-error" id="displayError"></div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
