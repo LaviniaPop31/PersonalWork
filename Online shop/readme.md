@@ -1,0 +1,1 @@
+The design is implemented in HTML and CSS based on a picture
