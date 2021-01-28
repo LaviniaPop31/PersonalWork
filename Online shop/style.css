@@ -1,0 +1,89 @@
+
+@font-face {
+    font-family: Roboto;
+    src: url(./Roboto/Roboto-Regular.ttf);
+}
+
+h3 {
+    text-align: center;
+    font-family: Roboto;
+    font-size: 23px;
+}
+
+.product {
+    box-sizing: border-box;
+    /* display: inline-block; 
+    float: left; -nu e nevoie de float */
+    width: 300px;
+    /* align-content: center ;  */
+     /* margin: 0 ;  */
+    position: relative;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    width: 90%;   
+}
+
+.container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-family: Roboto;
+    font-size: 14px;
+}
+
+span {
+    margin-left: 25px;
+    line-height: 20px;
+}
+
+.name {
+    margin-left: 25px;
+    line-height: 30px;
+}
+/* .new + div {          -nu e recomandat acest tip de selector pentru ca e complicat sa-i tin cursul
+    margin-left: 25px;
+    line-height: 30px;
+}
+
+img + div {
+    margin-left: 25px;
+    line-height: 30px;
+} */
+.oldPrice {
+    text-decoration: line-through;
+    color: grey;
+    font-size: 13px;
+    margin-left: 7px;
+}
+
+.newPrice {
+    font-weight: bold;
+}
+
+.new {
+    position: absolute;
+    right: 25px;
+    top:7px;
+    background-color:#f88f26;
+    color: white;
+    padding:2px 9px;
+    font-family: Roboto;
+}
+
+.star {
+    color:rgb(247, 201, 75);
+    /* position: absolute;
+    top: 400px;
+    right: 25px; */
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 25px;
+}
+
+.empty {
+    color:rgba(209, 209, 209, 0.952);
+}
